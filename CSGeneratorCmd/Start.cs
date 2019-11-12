@@ -28,19 +28,20 @@ namespace CSGeneratorCmd
                 if (args.Length == 4)
                 {
                     enoughArgs = true;
-                    CSGeneratorLibrary.Program.MainMethod(args[0], args[1], args[2], args[3]);
+                    CSGeneratorLib.Program.MainMethod(args[0], args[1], args[2], args[3]);
+                    log.Debug(">>32");
                 }
                 else if (args.Length == 0)
                 {
                     enoughArgs = true;
 
-                    CSGeneratorLibrary.Program.MainMethod(APPSETTINGS_INPATH, APPSETTINGS_OUTPATH, APPSETTINGS_NAMESPACE, APPSETTINGS_TEMPLATES);
+                    CSGeneratorLib.Program.MainMethod(APPSETTINGS_INPATH, APPSETTINGS_OUTPATH, APPSETTINGS_NAMESPACE, APPSETTINGS_TEMPLATES);
                 }
                 else
                 {
                     try
                     {
-                        CSGeneratorLibrary.Program.MainMethod(args[0], args[1], args[2], args[3]);
+                        CSGeneratorLib.Program.MainMethod(args[0], args[1], args[2], args[3]);
                     }
                     catch (Exception _exception)
                     {
