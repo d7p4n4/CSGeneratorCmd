@@ -70,14 +70,17 @@
     <Reference Include="CSAc4yMasterClassLib, Version=1.0.1.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\CSAc4yMasterClassLib.1.0.1\lib\netstandard2.0\CSAc4yMasterClassLib.dll</HintPath>
     </Reference>
-    <Reference Include="CSGeneratorLib, Version=1.0.2.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\CSGeneratorLib.1.0.2\lib\netstandard2.0\CSGeneratorLib.dll</HintPath>
+    <Reference Include="CSGeneratorLib, Version=1.0.4.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\CSGeneratorLib.1.0.4\lib\netstandard2.0\CSGeneratorLib.dll</HintPath>
     </Reference>
     <Reference Include="CSGUIDLib, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\CSGUIDLib.1.0.0\lib\netstandard2.0\CSGUIDLib.dll</HintPath>
     </Reference>
-    <Reference Include="CSPersistentGeneratorLib, Version=1.0.1.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\CSPersistentGeneratorLib.1.0.1\lib\netstandard2.0\CSPersistentGeneratorLib.dll</HintPath>
+    <Reference Include="CSPersistentGeneratorLib, Version=1.0.4.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\CSPersistentGeneratorLib.1.0.4\lib\netstandard2.0\CSPersistentGeneratorLib.dll</HintPath>
+    </Reference>
+    <Reference Include="CSRestApiGeneratorLib, Version=1.0.2.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\CSRestApiGeneratorLib.1.0.2\lib\netstandard2.0\CSRestApiGeneratorLib.dll</HintPath>
     </Reference>
     <Reference Include="log4net, Version=2.0.8.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a, processorArchitecture=MSIL">
       <HintPath>..\packages\log4net.2.0.8\lib\net45-full\log4net.dll</HintPath>
